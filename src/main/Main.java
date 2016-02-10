@@ -1,4 +1,4 @@
-package lesson01;
+package main;
 
 /**
  * User: gkislin
@@ -11,6 +11,7 @@ public class Main {
      * @param args : program arguments
      */
     public static void main(String[] args) {
-        System.out.println("Hello" +args+" !");
+        System.out.println("Hello " + args[0] + " !");
+        System.out.format("Hello %s ", args[0]);
     }
 }
