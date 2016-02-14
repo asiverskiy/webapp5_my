@@ -11,7 +11,9 @@ public class Main {
      * @param args : program arguments
      */
     public static void main(String[] args) {
-        System.out.println("Hello " + args[0] + " !");
-        System.out.format("Hello %s ", args[0]);
+        // Задать входной параметр args. В меню выбрать Run -> Edit Configurations...-> Program arguments
+        // Форматировть код Ctrl + Alt + L
+        System.out.println("1:" + "Hello " + args[0] + " !");
+        System.out.format("1:" + "Hello %s ", args[0] + " !");
     }
 }
