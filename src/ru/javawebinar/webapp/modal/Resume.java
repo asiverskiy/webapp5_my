@@ -5,5 +5,4 @@ package ru.javawebinar.webapp.modal;
  */
 public class Resume {
     String fullName;
-    int rrr;
 }
