@@ -14,8 +14,11 @@ public class Main {
         // Задать входной параметр args. В меню выбрать Run -> Edit Configurations...-> Program arguments
         // Форматировть код Ctrl + Alt + L
         System.out.println("1:" + "Hello " + args[0] + " !");
-        System.out.format("2:" + "Hello %s\n ", args[0] + " !");
+        System.out.format("2:" + "Hello %s\n", args[0] + " !");
         Car car = new Car();
+        car.speed = 200;
+        Car car2 = new Car();
         car.go();
+        car2.go();
     }
 }
