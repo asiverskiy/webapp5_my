@@ -1,8 +1,8 @@
 package main;
 
 /**
- * User: gkislin
- * Date: 18.06.2014
+ * User: Akarak
+ * Date: 15.02.2016
  */
 public class Main {
     /**
