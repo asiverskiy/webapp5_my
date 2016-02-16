@@ -3,7 +3,7 @@ package main;
 /**
  * Created by Akarak on 16.02.2016.
  */
-public class SimpleCar extends AbstractCar{
+public class SimpleCar extends AbstractCar {
 
     @Override
     public void getDescription() {

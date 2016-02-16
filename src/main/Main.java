@@ -15,9 +15,8 @@ public class Main {
         // Форматировть код Ctrl + Alt + L
         //System.out.println("1:" + "Hello " + args[0] + " !");
         //System.out.format("2:" + "Hello %s\n", args[0] + " !");
-        Car raceCar  = new RaceCar();
+        Car raceCar = new RaceCar();
         Car simpleCar = new SimpleCar();
-        //raceCar.setSpeed(200);
         System.out.println(raceCar.getSpeed());
         raceCar.getDescription();
         simpleCar.getDescription();
