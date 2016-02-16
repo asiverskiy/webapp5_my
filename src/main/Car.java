@@ -1,21 +1,12 @@
 package main;
 
 /**
- * Created by Akarak on 15.02.2016.
+ * Created by Akarak on 16.02.2016.
  */
-public class Car {
-    private int speed = 100;
+public interface Car {
+    int getSpeed();
 
-    public int getSpeed() {
-        return speed;
-    }
+    void setSpeed(int speed);
 
-    public void setSpeed(int speed) {
-        this.speed = speed + 12;
-    }
-
-    void go() {
-        System.out.println("Go at speed " + speed);
-
-    }
+    void go();
 }
