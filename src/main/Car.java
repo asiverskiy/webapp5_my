@@ -8,5 +8,7 @@ public interface Car {
 
     void setSpeed(int speed);
 
-    void go();
+    void getDescription();
+
+    double getEngineVolume();
 }
