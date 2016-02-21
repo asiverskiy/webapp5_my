@@ -1,4 +1,4 @@
-package main;
+package lesson01;
 
 /**
  * User: Akarak
@@ -17,7 +17,7 @@ public class Main {
         //System.out.format("2:" + "Hello %s\n", args[0] + " !");
         Car raceCar = new RaceCar();
         Car simpleCar = new SimpleCar();
-        System.out.println(raceCar.getSpeed());
+        //System.out.println(raceCar.getSpeed());
         raceCar.getDescription();
         simpleCar.getDescription();
     }
