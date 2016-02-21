@@ -6,8 +6,7 @@ import java.util.Collection;
  * Created by Akarak on 15.02.2016.
  */
 public class Resume {
-    String fullName;
-    String [] some;
-    Collection<String> collection;
+    private String fullName;
+    private String location;
 }
 
