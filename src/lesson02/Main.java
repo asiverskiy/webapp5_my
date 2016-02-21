@@ -8,7 +8,8 @@ import ru.javawebinar.webapp.modal.Link;
  */
 public class Main {
     public static void main(String[] args) {
-       Link l =  new Link("JavaWebimar", "javawebimar.ru");
-        System.out.println(l);
+       Link l1 =  new Link("JavaWebimar", "javawebimar.ru");
+        Link l2 = l1;
+        System.out.println(l1.equals(l2));
     }
 }
