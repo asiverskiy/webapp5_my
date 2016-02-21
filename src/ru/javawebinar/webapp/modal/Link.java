@@ -12,4 +12,9 @@ public class Link {
         this.name = name;
         this.url = url;
     }
+    // Копия метода
+    public Link(Link link) {
+        this.name = link.name;
+        this.url = link.url;
+    }
 }
