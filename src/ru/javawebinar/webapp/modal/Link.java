@@ -21,10 +21,25 @@ public class Link {
         this.url = link.url;
     }
 
-    void out() {
-        for (int i = 0; i < 5; i++) {
-            System.out.println(i);
-        }
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
 
+        Link link = (Link) o;
+
+        if (i != link.i) return false;
+        if (name != null ? !name.equals(link.name) : link.name != null) return false;
+        if (!url.equals(link.url)) return false;
+
+        return true;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = name != null ? name.hashCode() : 0;
+        result = 31 * result + url.hashCode();
+        result = 31 * result + i;
+        return result;
     }
 }
