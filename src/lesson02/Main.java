@@ -14,6 +14,6 @@ public class Main {
         System.out.println(l1.getClass());
         System.out.println(l1.equals(l2));
         System.out.println(l1.equals(l3));
-
+        System.out.println(l1);
     }
 }
